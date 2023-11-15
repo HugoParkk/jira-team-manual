@@ -1,0 +1,140 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Jira 사용 메뉴얼</title>
+
+  <style>
+    .image>img {
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Jira 사용 메뉴얼</h1>
+  <p>팀에 애자일 프로세스를 도입하기위해 사용하는 Jira의 사용 메뉴얼입니다.</p>
+  <em>수정기록: 2023.11.15 박종연 작성</em>
+
+  <h1>목차</h1>
+  <ul>
+    <li><a href="#sidebar">사이드바</a></li>
+    <li><a href="#menu">메뉴</a></li>
+    <ul>
+      <li><a href="#timeline">타임라인</a></li>
+      <li><a href="#backlog">백로그</a></li>
+      <li><a href="#board">보드</a></li>
+      <li><a href="#issue">이슈</a></li>
+      <li><a href="#project-page">프로젝트 페이지</a></li>
+      <li><a href="#shortcut">바로 가기 추가</a></li>
+      <li><a href="#setting">프로젝트 설정</a></li>
+    </ul>
+    <li><a href="#reference">참고</a></li>
+  </ul>
+
+  <div id="sidebar">
+    <h2>사이드바</h2>
+
+    <p>사이드바는 왼쪽에 위치하며, Jira의 메뉴를 선택할 수 있습니다.</p>
+
+    <div class="image">
+      <img src="./resource/sidebar.png" alt="jira sidebar">
+    </div>
+
+    <p>메뉴는 다음과 같습니다.</p>
+
+    <ul>
+      <p style="font-weight: bold;"></p>
+      <li>타임라인</li>
+      <li>백로그</li>
+      <li>보드</li>
+      <li>이슈</li>
+    </ul>
+    <ul>
+      <p style="font-weight: bold;"></p>
+      <li>프로젝트 페이지</li>
+      <li>바로 가기 추가</li>
+      <li>프로젝트 설정</li>
+    </ul>
+  </div>
+
+  <div id="menu">
+    <h2>메뉴</h2>
+    <p>Jira 사이드바에 있는 메뉴입니다.</p>
+    <div id="timeline">
+      <h3>타임라인</h3>
+      <p>타임라인에서는 에픽을 추가하고 관리 할 수 있습니다. </p>
+      <p>타임라인에는 에픽(Epic)들과 에픽의 하위 이슈들이 나열되어서 보입니다. </p>
+      <p>또한 에픽과 에픽의 하위 이슈들이 기한이 간트차트에 보입니다. </p>
+      <div class="image">
+        <img src="./resource/timeline.png" alt="jira timeline">
+      </div>
+
+      <p>왼쪽에 보이는 에픽 및 이슈들을 클릭하면 상세 정보를 볼 수 있습니다. </p>
+      <p>이슈에는 진행 상태와 우선 순위, 레이블, 기한, 설명, 담당자, 보고자, 하위 이슈, Spring 정보가 있습니다.</p>
+      <div class="image">
+        <img src="./resource/timeline1.png" alt="jira timeline1">
+      </div>
+    </div>
+
+    <div id="backlog">
+      <h3>백로그</h3>
+      <p>백로그에서는 스프린트를 만들고 관리 할 수 있습니다.</p>
+      <p>백로그에는 스프린트들과 스프린트의 이슈들이 나열되어서 보입니다. </p>
+      <div class="image">
+        <img src="./resource/backlog.png" alt="jira backlog">
+      </div>
+
+      <p>백로그의 이슈를 클릭하면 오른쪽에 이슈의 상세 정보가 나옵니다. </p>
+      <div class="image">
+        <img src="./resource/backlog1.png" alt="jira backlog1">
+      </div>
+    </div>
+
+    <div id="board">
+      <h3>보드</h3>
+      <p>보드에서는 현재 스프린트의 이슈들이 뜨고, 이 이슈들의 진행 상태를 관리 할 수 있습니다.</p>
+      <p>보드의 이슈를 드래그하여 옮기면 진행 상태가 변경 됩니다. </p>
+      <div class="image">
+        <img src="./resource/board.png" alt="jira board">
+      </div>
+    </div>
+
+    <div id="issue">
+      <h3>이슈</h3>
+      <p>이슈에서는 필터를 걸어 이슈를 검색 할 수 있습니다. 이슈를 클릭하면 이슈 상세 정보가 보입니다. </p>
+      <p>이슈 메뉴는 이슈들을 검색할 때 주로 쓰입니다. </p>
+      <div class="image">
+        <img src="./resource/issue.png" alt="jira issue">
+      </div>
+    </div>
+
+    <div id="project-page">
+      <h3>프로젝트 페이지</h3>
+      <p>프로젝트 페이지는 Atlassian의 Confluence로 연결 됩니다. </p>
+    </div>
+
+    <div id="shortcut">
+      <h3>바로 가기 추가</h3>
+      <p>바로 가기 추가는 웹 페이지 등 자주 사용하는 리소스의 링크 또는 Git 리포지토리를 추가 할 수 있습니다. </p>
+    </div>
+
+    <div id="setting">
+      <h3>프로젝트 설정</h3>
+      <p>프로젝트 설정에서는 현재 있는 프로젝트의 설정을 변경 할 수 있습니다. </p>
+    </div>
+  </div>
+
+  <div id="reference">
+    <h2>참고</h2>
+    <ul>
+      <li>
+        <a
+          href="https://www.codestates.com/blog/content/%EC%95%A0%EC%9E%90%EC%9D%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%A9%EC%96%B4">신입
+          개발자가 알아두면 좋은 IT 애자일 프로젝트 용어 (칸반보드, 간트차트, 스크럼)</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
